@@ -2,7 +2,7 @@
 pipeline {
     agent any 
     stages {
-        stages ('Clone) {
+        stages ('Clone') {
             steps {
                 git 'https://github.com/n-newn/Demo.git'
             }
